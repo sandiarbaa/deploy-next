@@ -1,7 +1,7 @@
-export default function About() {
+export default function ProjectsPage() {
   return (
     <div className="flex items-center justify-center w-full h-screen">
-      <h1>About Page</h1>
+      <h1>Projects Page</h1>
     </div>
   );
 }

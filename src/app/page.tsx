@@ -1,9 +1,9 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="w-full h-screen flex justify-center items-center">
-      <h1>Home | Mobile</h1>
-    </main>
+    <div className="container flex items-center justify-center h-screen">
+      <h1 className="md:hidden">Home | Mobile</h1>
+      <h1 className="hidden md:block lg:hidden">Home | Tablet</h1>
+      <h1 className="hidden lg:block">Home | Desktop</h1>
+    </div>
   );
 }

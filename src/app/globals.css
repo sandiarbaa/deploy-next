@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .kotak {
+    @apply w-10 h-10 bg-white rounded-md text-blue-600 text-center leading-10;
+  }
+}
+
+/* .kotak {
+  @apply w-10 h-10 bg-white rounded-md text-blue-600 text-center leading-10;
+} */
