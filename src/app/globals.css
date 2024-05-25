@@ -6,6 +6,10 @@
   .kotak {
     @apply w-10 h-10 bg-white rounded-md text-blue-600 text-center leading-10;
   }
+
+  .cover {
+    @apply container flex items-center justify-center w-full h-screen rounded-lg bg-slate-500;
+  }
 }
 
 /* .kotak {
