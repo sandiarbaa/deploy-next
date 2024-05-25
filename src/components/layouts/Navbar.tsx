@@ -121,6 +121,7 @@ const Navbar = () => {
     setToggleMenu(false);
   };
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const handleClickOutside = (event: any) => {
     if (event.target.id === "backdrop") {
       closeMenu();
@@ -136,7 +137,7 @@ const Navbar = () => {
     return () => {
       document.removeEventListener("click", handleClickOutside);
     };
-  }, [toggleMenu]);
+  }, [handleClickOutside, toggleMenu]);
 
   const toggle = () => {
     setToggleMenu(!toggleMenu);
